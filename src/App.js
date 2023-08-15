@@ -1,8 +1,12 @@
+import Routes from './routes';
+
 import './App.css';
 
 function App() {
   return (
-    <span>Hello World!!!</span>
+    <div className="App">
+      <Routes />
+    </div>
   );
 }
 
