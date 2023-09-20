@@ -1,6 +1,10 @@
+import Header from '../components/header/Header';
+
 function Home() {
   return (
-    <h1>Home</h1>
+    <section>
+      <Header />
+    </section>
   );
 }
 
