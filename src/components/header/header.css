@@ -1,0 +1,38 @@
+/* TAGs */
+header {
+  align-items: center;
+  background-color: #fff159;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  max-height: 20%;
+  max-width: 100%;
+}
+
+/* Classes  */
+
+/* FIRST SECTION */
+.first-section-header {
+  max-width: 20%;
+}
+
+.logo-header {
+  width: 50%;
+}
+
+.localization-container {
+  display: flex;
+}
+
+.localization-icon {
+  width: 10%;
+}
+
+.inf-cep-header {
+  font-size: 0.8rem;
+}
+
+/* REUSED CLASSES */
+.text-opacity-header {
+  color: #00000080;
+}
