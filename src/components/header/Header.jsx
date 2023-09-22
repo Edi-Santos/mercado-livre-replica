@@ -21,6 +21,33 @@ function Header() {
           </div>
         </div>
       </section>
+
+      <section className="second-section-header">
+        <div className="form-container-header">
+          <input
+            className="input-header"
+            type="text"
+            placeholder="Buscar produtos, marcas e muito mais..."
+          />
+
+          <button className="search-btn-header" type="submit">
+            <img
+              className="search-icon-header"
+              src="./img/header/pesquisa.png"
+              alt=""
+            />
+          </button>
+        </div>
+
+        <ol className="text-opacity-header">
+          <li>Categorias</li>
+          <li>Ofertas do dia</li>
+          <li>Histórico</li>
+          <li>Moda</li>
+          <li>Vender</li>
+          <li>Contato</li>
+        </ol>
+      </section>
     </header>
   );
 }

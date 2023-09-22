@@ -7,6 +7,17 @@ header {
   justify-content: space-evenly;
   max-height: 20%;
   max-width: 100%;
+  padding: 5px 0;
+}
+
+ol {
+  display: flex;
+  font-size: 0.8rem;
+  list-style: none;
+}
+
+li {
+  margin: 15px 15px 0 0;
 }
 
 /* Classes  */
@@ -30,6 +41,52 @@ header {
 
 .inf-cep-header {
   font-size: 0.8rem;
+}
+
+/* SECOND SECTION */
+.second-section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-be;
+  max-width: 60%;
+  width: 50%;
+}
+
+.form-container-header {
+  border-radius: 50px;
+  display: flex;
+  width: 100%;
+}
+
+.input-header {
+  border: none;
+  border-radius: 3px 0 0 3px;
+  color: #333;
+  font-size: 0.9rem;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.input-header:focus {
+  outline: none;
+}
+
+.input-header::placeholder {
+  font-size: 0.9rem;
+  opacity: 0.4;
+}
+
+.search-btn-header {
+  background-color: white;
+  border: none;
+  border-left: 1px solid #00000030;
+  border-radius: 0 3px 3px 0;
+}
+
+.search-icon-header {
+  opacity: 0.6;
+  padding: 10px;
+  width: 1rem;
 }
 
 /* REUSED CLASSES */
