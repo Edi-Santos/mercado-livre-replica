@@ -53,7 +53,6 @@ li {
 }
 
 .form-container-header {
-  border-radius: 50px;
   display: flex;
   width: 100%;
 }
@@ -61,6 +60,7 @@ li {
 .input-header {
   border: none;
   border-radius: 3px 0 0 3px;
+  box-shadow: 1px 1px 2px #00000030;
   color: #333;
   font-size: 0.9rem;
   padding: 0 20px;
@@ -79,13 +79,23 @@ li {
 .search-btn-header {
   background-color: white;
   border: none;
-  border-left: 1px solid #00000030;
   border-radius: 0 3px 3px 0;
+  box-shadow: 1px 1px 2px #00000030;
+  position: relative;
+}
+
+.line-input-btn-header {
+  background-color: #00000030;
+  height: 70%;
+  left: 0;
+  position: absolute;
+  top: 15%;
+  width: 1px;
 }
 
 .search-icon-header {
   opacity: 0.6;
-  padding: 10px;
+  padding: 10px 20px;
   width: 1rem;
 }
 

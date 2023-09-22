@@ -29,8 +29,8 @@ function Header() {
             type="text"
             placeholder="Buscar produtos, marcas e muito mais..."
           />
-
           <button className="search-btn-header" type="submit">
+            <span className="line-input-btn-header" />
             <img
               className="search-icon-header"
               src="./img/header/pesquisa.png"
